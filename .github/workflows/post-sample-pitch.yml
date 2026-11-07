@@ -1,0 +1,50 @@
+name: Post sample pitch
+
+# Manual test hook. Actions → Post sample pitch → Run workflow.
+# Posts one SAMPLE issue for the chosen agent. It also creates any missing labels.
+# Sample pitches are stubs, not research.
+on:
+  workflow_dispatch:
+    inputs:
+      agent:
+        description: Agent slug from council/config.json
+        required: true
+        type: choice
+        options:
+          - category-researcher
+          - listing-analyst
+          - niche-hunter
+          - template-designer
+          - seo-copywriter
+          - content-planner
+          - policy-researcher
+          - brand-designer
+          - competitor-tracker
+          - launch-lead
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  pitch:
+    name: Post sample pitch
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Ensure labels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python3 -u council/agent.py labels
+
+      - name: Post the sample
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python3 -u council/agent.py pitch "${{ inputs.agent }}"

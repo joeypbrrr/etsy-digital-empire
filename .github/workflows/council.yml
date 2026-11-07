@@ -1,0 +1,41 @@
+name: Council
+
+# Wakes the stub agent within seconds of the repo owner's /approve or /decline
+# comment. There is no schedule. A comment from anyone else is ignored.
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: council-issue-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    name: Approval gate
+    if: ${{ github.event.comment.user.login == github.repository_owner && !github.event.issue.pull_request && (startsWith(github.event.comment.body, '/approve') || startsWith(github.event.comment.body, '/decline')) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Ensure labels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python3 -u council/agent.py labels
+
+      - name: Approve or decline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          COUNCIL_BRANCH: main
+        run: python3 -u council/agent.py handle-comment

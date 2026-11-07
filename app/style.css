@@ -353,6 +353,20 @@ dd span { font-weight: 400; color: var(--mute); font-size: 12px; }
 .shop h3 { font-size: 16px; font-weight: 600; overflow-wrap: anywhere; }
 .shop p { color: var(--mute); font-size: 13px; margin-top: 4px; }
 .shop .go { color: var(--orange); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; }
+.council-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: #1a140f;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+.council-link:hover { background: var(--gold); }
 footer {
   display: flex;
   justify-content: space-between;
