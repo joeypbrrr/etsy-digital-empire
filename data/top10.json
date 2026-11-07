@@ -1,0 +1,454 @@
+[
+  {
+    "rank": 1,
+    "product": "Canva wedding planner + day-of binder bundle",
+    "category": "Wedding & event planning",
+    "typical_price_usd": 14.99,
+    "net_per_sale_usd": 13.12,
+    "margin_pct": 87.5,
+    "margin_score": 36,
+    "validation_score": 36,
+    "validation_breakdown": {
+      "demand": 13,
+      "proven_sales": 12,
+      "competition_gap": 8,
+      "repeat": 3
+    },
+    "combined": 72,
+    "repeat_buyer": false,
+    "why": "Higher price point (median $14.99, 40% of listings $10-25) with high search volume and moderate difficulty (39). MyDigitalDarling has 48.9K sales at a $19.99 median; 'wedding planner' is in eRank's Oct 2026 US top-200 with 125%+ CTR. Natural upsells (seating chart, signs, bridal shower).",
+    "risks": "Each couple buys once (no yearly rebuy, though a new cohort arrives every year); 85K+ listings; Canva-template licensing rules must be followed; refund/support load from editing questions.",
+    "evidence": [
+      {
+        "label": "RankHero: 'wedding planner' ~246,000 searches/mo, 85,785 listings, median $14.99, difficulty 39",
+        "url": "https://www.rankhero.com/keywords/wedding-planner"
+      },
+      {
+        "label": "MakerWords: MyDigitalDarling 48.9K sales, 4.87\u2605, median $19.99",
+        "url": "https://makerwords.com/shop/mydigitaldarling"
+      },
+      {
+        "label": "400-page Canva wedding planner listing, 877 reviews, 4.9\u2605 [Etsy page: direct fetch blocked (403/timeout); figure read from search-engine snapshot, not independently opened]",
+        "url": "https://www.etsy.com/listing/1564491917/400-page-canva-wedding-planner-template"
+      },
+      {
+        "label": "eRank: Top Keywords on Etsy, Oct 2026 (US), pub. 3 Nov 2026",
+        "url": "https://help.erank.com/blog/top-keywords-on-etsy/"
+      },
+      {
+        "label": "StealWhatWorks: Etsy digital products selling best now (updated 17 Sep 2026)",
+        "url": "https://stealwhatworks.com/blogs/news/etsy-digital-products-selling-best-now"
+      },
+      {
+        "label": "Etsy Help: fees (listing $0.20, transaction 6.5%)",
+        "url": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy"
+      },
+      {
+        "label": "Etsy Help: payment processing, US = 3% + $0.25",
+        "url": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy"
+      }
+    ]
+  },
+  {
+    "rank": 2,
+    "product": "Small business / Etsy-seller bookkeeping & profit spreadsheet",
+    "category": "Business spreadsheets",
+    "typical_price_usd": 14.59,
+    "net_per_sale_usd": 12.75,
+    "margin_pct": 87.4,
+    "margin_score": 36,
+    "validation_score": 28,
+    "validation_breakdown": {
+      "demand": 6,
+      "proven_sales": 11,
+      "competition_gap": 5,
+      "repeat": 6
+    },
+    "combined": 64,
+    "repeat_buyer": true,
+    "why": "Highest-intent buyer: CPC $10.79 and median $14.59 (58% of listings $10-25). TheSheetCode sells finance/business sheets at a $30.25 median with 28.6K sales. Tax-year versions create a January rebuy.",
+    "risks": "Low head-term search volume (~720/mo) so it depends on long-tail keywords and off-Etsy marketing; 48K+ listings; tax/legal accuracy liability; must work in both Excel and Google Sheets.",
+    "evidence": [
+      {
+        "label": "RankHero: 'bookkeeping spreadsheet' 720 searches/mo, 53,500 listings, median $14.59, CPC $10.79",
+        "url": "https://www.rankhero.com/keywords/bookkeeping-spreadsheet"
+      },
+      {
+        "label": "MakerWords: TheSheetCode 28.6K sales, median $30.25",
+        "url": "https://makerwords.com/shop/thesheetcode"
+      },
+      {
+        "label": "StealWhatWorks: Etsy digital products selling best now (updated 17 Sep 2026)",
+        "url": "https://stealwhatworks.com/blogs/news/etsy-digital-products-selling-best-now"
+      },
+      {
+        "label": "Etsy Help: fees (listing $0.20, transaction 6.5%)",
+        "url": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy"
+      },
+      {
+        "label": "Etsy Help: payment processing, US = 3% + $0.25",
+        "url": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy"
+      }
+    ]
+  },
+  {
+    "rank": 3,
+    "product": "Notion life / business planner template",
+    "category": "Productivity templates",
+    "typical_price_usd": 13.49,
+    "net_per_sale_usd": 11.76,
+    "margin_pct": 87.2,
+    "margin_score": 34,
+    "validation_score": 29,
+    "validation_breakdown": {
+      "demand": 12,
+      "proven_sales": 6,
+      "competition_gap": 9,
+      "repeat": 2
+    },
+    "combined": 63,
+    "repeat_buyer": false,
+    "why": "Clear competition gap: ~90.5K searches/mo vs ~28K listings, difficulty 28 ('easy'), steady year-round demand, healthy median $13.49 (46% of listings $10-25). 'notion template' is in eRank's Oct 2026 US top-100 with 125%+ CTR.",
+    "risks": "No big-shop sales total verified for this niche (weaker proof of sales than other picks); Notion can change its template/sharing features; free templates in Notion's own gallery; only 20% of searches are US.",
+    "evidence": [
+      {
+        "label": "RankHero: 'notion template' 90,500 searches/mo, 28,450 listings, median $13.49, difficulty 28",
+        "url": "https://www.rankhero.com/keywords/notion-template"
+      },
+      {
+        "label": "eRank: Top Keywords on Etsy, Oct 2026 (US), pub. 3 Nov 2026",
+        "url": "https://help.erank.com/blog/top-keywords-on-etsy/"
+      },
+      {
+        "label": "Etsy Help: fees (listing $0.20, transaction 6.5%)",
+        "url": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy"
+      },
+      {
+        "label": "Etsy Help: payment processing, US = 3% + $0.25",
+        "url": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy"
+      }
+    ]
+  },
+  {
+    "rank": 4,
+    "product": "Dated 2027 hyperlinked digital planner (GoodNotes/Notability, niche-themed)",
+    "category": "Digital planners",
+    "typical_price_usd": 6.9,
+    "net_per_sale_usd": 5.79,
+    "margin_pct": 84.0,
+    "margin_score": 21,
+    "validation_score": 41,
+    "validation_breakdown": {
+      "demand": 14,
+      "proven_sales": 15,
+      "competition_gap": 2,
+      "repeat": 10
+    },
+    "combined": 62,
+    "repeat_buyer": true,
+    "why": "Strongest repeat-buyer pattern: a dated planner expires every year, so buyers rebuy each Dec/Jan (searches double to 40.5K/mo in Dec-Jan). Biggest proven shops in digital: HappyDownloads 230.0K sales, MyLifePlans 197.6K, LetsPlanPlanners 52.7K. 'digital planner' hit #2 of all Etsy searches in Canada (Mar 2026, 150% CTR) and 'planner' is #16 in US Oct 2026.",
+    "risks": "Most saturated pick: 1.03M competing listings, 73% priced under $10; generic all-in-one planners are commoditized and AI makes them easy to clone; missing the Oct-Jan selling window means waiting a year; need a niche angle (profession, life stage) to stand out.",
+    "evidence": [
+      {
+        "label": "RankHero: 'digital planner' 22,200 searches/mo, 1,029,108 listings, median $6.90, Dec-Jan peak 40,500",
+        "url": "https://www.rankhero.com/keywords/digital-planner"
+      },
+      {
+        "label": "MakerWords: HappyDownloads 230.0K sales, 29.3K reviews (4.87\u2605), median $4.50",
+        "url": "https://makerwords.com/shop/happydownloads"
+      },
+      {
+        "label": "MakerWords: MyLifePlans 197.6K sales, 16.6K reviews (4.9\u2605)",
+        "url": "https://makerwords.com/shop/mylifeplans"
+      },
+      {
+        "label": "MakerWords: LetsPlanPlanners 52.7K sales, 4.85\u2605, median $7.43",
+        "url": "https://makerwords.com/shop/letsplanplanners"
+      },
+      {
+        "label": "eRank: Canada top Etsy keywords, Mar 2026",
+        "url": "https://help.erank.com/blog/canadas-top-etsy-keywords-march-2026/"
+      },
+      {
+        "label": "eRank: Top Keywords on Etsy, Oct 2026 (US), pub. 3 Nov 2026",
+        "url": "https://help.erank.com/blog/top-keywords-on-etsy/"
+      },
+      {
+        "label": "StealWhatWorks: Etsy digital products selling best now (updated 17 Sep 2026)",
+        "url": "https://stealwhatworks.com/blogs/news/etsy-digital-products-selling-best-now"
+      },
+      {
+        "label": "Etsy Help: fees (listing $0.20, transaction 6.5%)",
+        "url": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy"
+      },
+      {
+        "label": "Etsy Help: payment processing, US = 3% + $0.25",
+        "url": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy"
+      }
+    ]
+  },
+  {
+    "rank": 5,
+    "product": "Google Sheets budget / paycheck budget spreadsheet (auto-calculating dashboard)",
+    "category": "Personal finance spreadsheets",
+    "typical_price_usd": 7.49,
+    "net_per_sale_usd": 6.33,
+    "margin_pct": 84.5,
+    "margin_score": 22,
+    "validation_score": 40,
+    "validation_breakdown": {
+      "demand": 14,
+      "proven_sales": 15,
+      "competition_gap": 6,
+      "repeat": 5
+    },
+    "combined": 62,
+    "repeat_buyer": true,
+    "why": "Functional product (formulas do real work) with steady year-round demand (27.1K searches/mo, Jan peak 40.5K, CPC $4.50) and a proven leader: PrioriDigitalStudio has 178.4K sales and ranks #1 for 'paycheck budget' terms with a $24 median price; 'budget spreadsheet' was a top-20 Etsy search in Canada.",
+    "risks": "61K+ competing listings; 61% priced under $10 so a race to the bottom is real; buyers can reuse a sheet for years (rebuy only for new versions/upgrades); must be bug-free in Google Sheets/Excel; avoid financial-advice claims.",
+    "evidence": [
+      {
+        "label": "RankHero: 'budget spreadsheet' 27,100 searches/mo, 61,342 listings, median $7.49, difficulty 42, CPC $4.50",
+        "url": "https://www.rankhero.com/keywords/budget-spreadsheet"
+      },
+      {
+        "label": "MakerWords: PrioriDigitalStudio 178.4K sales, 4.74\u2605, median price $24.00, #1 for paycheck budget keywords",
+        "url": "https://makerwords.com/shop/prioridigitalstudio"
+      },
+      {
+        "label": "MakerWords: TheSheetCode 28.6K sales, median $30.25 (net-worth / bank-account sheets)",
+        "url": "https://makerwords.com/shop/thesheetcode"
+      },
+      {
+        "label": "MakerWords: TulipRoadStudio 29.8K sales, 4.82\u2605",
+        "url": "https://makerwords.com/shop/tuliproadstudio"
+      },
+      {
+        "label": "TulipRoadStudio monthly budget spreadsheet listing, $7.50, 2,907 reviews [Etsy page: direct fetch blocked (403/timeout); figure read from search-engine snapshot, not independently opened]",
+        "url": "https://www.etsy.com/listing/1259977908/monthly-budget-spreadsheet-google-sheets"
+      },
+      {
+        "label": "StealWhatWorks: Etsy digital products selling best now (updated 17 Sep 2026)",
+        "url": "https://stealwhatworks.com/blogs/news/etsy-digital-products-selling-best-now"
+      },
+      {
+        "label": "Etsy Help: fees (listing $0.20, transaction 6.5%)",
+        "url": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy"
+      },
+      {
+        "label": "Etsy Help: payment processing, US = 3% + $0.25",
+        "url": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy"
+      }
+    ]
+  },
+  {
+    "rank": 6,
+    "product": "ATS-friendly resume + cover letter template kit (Word/Google Docs), job-specific versions",
+    "category": "Career templates",
+    "typical_price_usd": 7.97,
+    "net_per_sale_usd": 6.76,
+    "margin_pct": 84.9,
+    "margin_score": 23,
+    "validation_score": 39,
+    "validation_breakdown": {
+      "demand": 15,
+      "proven_sales": 13,
+      "competition_gap": 9,
+      "repeat": 2
+    },
+    "combined": 62,
+    "repeat_buyer": false,
+    "why": "Best demand-to-competition ratio found: ~823K searches/mo vs ~51K listings, keyword difficulty 30 ('easy'). GetLanded has 115.9K sales from only 39 listings (4.91\u2605). 'resume' appears in eRank's Oct 2026 US top-200 with 125%+ monthly CTR.",
+    "risks": "Free alternatives (Canva, Word, AI writers) cap prices (73% under $10); demand fell ~33% Oct 2025\u2192Sep 2026; one-time purchase per job search; design alone is weak, needs real structure/guidance per profession.",
+    "evidence": [
+      {
+        "label": "RankHero: 'resume template' 823,000 searches/mo, 51,071 listings, median $7.97, difficulty 30",
+        "url": "https://www.rankhero.com/keywords/resume-template"
+      },
+      {
+        "label": "MakerWords: GetLanded 115.9K sales, 39 active listings, 7.0K reviews (4.91\u2605), median $7.97",
+        "url": "https://makerwords.com/shop/getlanded"
+      },
+      {
+        "label": "eRank: Top Keywords on Etsy, Oct 2026 (US), pub. 3 Nov 2026",
+        "url": "https://help.erank.com/blog/top-keywords-on-etsy/"
+      },
+      {
+        "label": "StealWhatWorks: Etsy digital products selling best now (updated 17 Sep 2026)",
+        "url": "https://stealwhatworks.com/blogs/news/etsy-digital-products-selling-best-now"
+      },
+      {
+        "label": "Etsy Help: fees (listing $0.20, transaction 6.5%)",
+        "url": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy"
+      },
+      {
+        "label": "Etsy Help: payment processing, US = 3% + $0.25",
+        "url": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy"
+      }
+    ]
+  },
+  {
+    "rank": 7,
+    "product": "Dated 2026-27 / 2027-28 teacher lesson planner (editable)",
+    "category": "Teacher & back-to-school",
+    "typical_price_usd": 9.24,
+    "net_per_sale_usd": 7.91,
+    "margin_pct": 85.6,
+    "margin_score": 26,
+    "validation_score": 32,
+    "validation_breakdown": {
+      "demand": 11,
+      "proven_sales": 7,
+      "competition_gap": 4,
+      "repeat": 10
+    },
+    "combined": 58,
+    "repeat_buyer": true,
+    "why": "Academic-year dating forces a rebuy every summer; searches jump from ~12K to 49.5K/mo in Jul-Aug and rose ~50% YoY. Median $9.24 with 21% of listings at $25-50, so premium editable bundles are accepted.",
+    "risks": "80K+ listings; sales concentrated in a ~3-month window; UK/AU school calendars differ; strong competition from Teachers Pay Teachers; no niche shop sales total verified.",
+    "evidence": [
+      {
+        "label": "RankHero: 'teacher planner' 22,200 searches/mo (49,500 in Jul-Aug 2026), 80,859 listings, median $9.24",
+        "url": "https://www.rankhero.com/keywords/teacher-planner"
+      },
+      {
+        "label": "MakerWords: HappyDownloads (230.0K sales) sells profession planners incl. teacher versions",
+        "url": "https://makerwords.com/shop/happydownloads"
+      },
+      {
+        "label": "Etsy Help: fees (listing $0.20, transaction 6.5%)",
+        "url": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy"
+      },
+      {
+        "label": "Etsy Help: payment processing, US = 3% + $0.25",
+        "url": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy"
+      }
+    ]
+  },
+  {
+    "rank": 8,
+    "product": "Editable baby shower / party games & signs bundle (original themes)",
+    "category": "Event printables",
+    "typical_price_usd": 7.35,
+    "net_per_sale_usd": 6.2,
+    "margin_pct": 84.4,
+    "margin_score": 22,
+    "validation_score": 34,
+    "validation_breakdown": {
+      "demand": 13,
+      "proven_sales": 14,
+      "competition_gap": 3,
+      "repeat": 4
+    },
+    "combined": 56,
+    "repeat_buyer": false,
+    "why": "Largest proven seller found in digital: ViolaMirabilisDesign has 252.5K sales (median $9.99) on editable event designs; 'baby shower games' ~135K searches/mo. Life events recur constantly and one buyer often needs a coordinated set.",
+    "risks": "Very crowded (323K+ listings, 77% under $10); demand down ~18% YoY; the most-searched party themes are trademarked characters (Pokemon, Spider-Man) and must be avoided.",
+    "evidence": [
+      {
+        "label": "RankHero: 'baby shower games' 135,000 searches/mo, 323,596 listings, median $7.35",
+        "url": "https://www.rankhero.com/keywords/baby-shower-games"
+      },
+      {
+        "label": "MakerWords: ViolaMirabilisDesign 252.5K sales, 17.5K reviews (4.88\u2605), median $9.99",
+        "url": "https://makerwords.com/shop/violamirabilisdesign"
+      },
+      {
+        "label": "StealWhatWorks: Etsy digital products selling best now (updated 17 Sep 2026)",
+        "url": "https://stealwhatworks.com/blogs/news/etsy-digital-products-selling-best-now"
+      },
+      {
+        "label": "Etsy Help: fees (listing $0.20, transaction 6.5%)",
+        "url": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy"
+      },
+      {
+        "label": "Etsy Help: payment processing, US = 3% + $0.25",
+        "url": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy"
+      }
+    ]
+  },
+  {
+    "rank": 9,
+    "product": "Original crochet pattern (PDF) collection",
+    "category": "Craft patterns",
+    "typical_price_usd": 5.0,
+    "net_per_sale_usd": 4.08,
+    "margin_pct": 81.5,
+    "margin_score": 15,
+    "validation_score": 36,
+    "validation_breakdown": {
+      "demand": 15,
+      "proven_sales": 13,
+      "competition_gap": 2,
+      "repeat": 6
+    },
+    "combined": 51,
+    "repeat_buyer": true,
+    "why": "Highest raw demand of any digital niche: 'crochet pattern' is the #3 search on all of Etsy US (Oct 2026) with 125%+ CTR, ~165K searches/mo. CrochetByBT reached 41.8K sales (median $14.88). Skill barrier protects against AI clones; crafters come back for new patterns (catalog repeat purchases).",
+    "risks": "1.05M competing listings and 90% priced under $10; needs real crochet skill plus test-making (yarn is a small upfront cost, so not strictly zero); a pattern that doesn't work brings bad reviews; avoid character/IP designs.",
+    "evidence": [
+      {
+        "label": "RankHero: 'crochet pattern' 165,000 searches/mo, 1,055,069 listings, median $5.00",
+        "url": "https://www.rankhero.com/keywords/crochet-pattern"
+      },
+      {
+        "label": "MakerWords: CrochetByBT 41.8K sales, 4.84\u2605, median $14.88",
+        "url": "https://makerwords.com/shop/crochetbybt"
+      },
+      {
+        "label": "eRank: Top Keywords on Etsy, Oct 2026 (US), pub. 3 Nov 2026",
+        "url": "https://help.erank.com/blog/top-keywords-on-etsy/"
+      },
+      {
+        "label": "StealWhatWorks: Etsy digital products selling best now (updated 17 Sep 2026)",
+        "url": "https://stealwhatworks.com/blogs/news/etsy-digital-products-selling-best-now"
+      },
+      {
+        "label": "Etsy Help: fees (listing $0.20, transaction 6.5%)",
+        "url": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy"
+      },
+      {
+        "label": "Etsy Help: payment processing, US = 3% + $0.25",
+        "url": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy"
+      }
+    ]
+  },
+  {
+    "rank": 10,
+    "product": "ADHD / neurodivergent-friendly daily planner",
+    "category": "Niche planners",
+    "typical_price_usd": 7.75,
+    "net_per_sale_usd": 6.56,
+    "margin_pct": 84.7,
+    "margin_score": 23,
+    "validation_score": 24,
+    "validation_breakdown": {
+      "demand": 10,
+      "proven_sales": 5,
+      "competition_gap": 3,
+      "repeat": 6
+    },
+    "combined": 47,
+    "repeat_buyer": true,
+    "why": "Niche angle on the biggest digital category: ~14.8K searches/mo, peaking at 22.2K in Dec-Jan; a 2027-dated version is rebought yearly. Niche planners are recommended as the way past generic-planner saturation.",
+    "risks": "95K+ listings already (not an open gap); avoid medical or diagnostic claims; no niche-specific shop sales total verified; demand fell ~18% YoY.",
+    "evidence": [
+      {
+        "label": "RankHero: 'adhd planner' 14,800 searches/mo, 95,221 listings, median $7.75",
+        "url": "https://www.rankhero.com/keywords/adhd-planner"
+      },
+      {
+        "label": "StealWhatWorks: Etsy digital products selling best now (updated 17 Sep 2026)",
+        "url": "https://stealwhatworks.com/blogs/news/etsy-digital-products-selling-best-now"
+      },
+      {
+        "label": "Etsy Help: fees (listing $0.20, transaction 6.5%)",
+        "url": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy"
+      },
+      {
+        "label": "Etsy Help: payment processing, US = 3% + $0.25",
+        "url": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy"
+      }
+    ]
+  }
+]
