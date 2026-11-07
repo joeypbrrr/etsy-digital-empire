@@ -1,0 +1,79 @@
+{
+  "repo": "joeypbrrr/etsy-digital-empire",
+  "owner": "joeypbrrr",
+  "niche": "Etsy digital products",
+  "timezone": "America/New_York",
+  "default_branch": "main",
+  "agents": [
+    {
+      "slug": "category-researcher",
+      "name": "Category Researcher",
+      "number": 1,
+      "folder": "research/categories/",
+      "task": "Find the most profitable digital product categories on Etsy right now, with demand, price range and competition level for each, and source every figure."
+    },
+    {
+      "slug": "listing-analyst",
+      "name": "Listing Analyst",
+      "number": 2,
+      "folder": "research/top-listings/",
+      "task": "Find specific top-selling digital listings to study and model: what they sell, at what price, their review counts, and why they work."
+    },
+    {
+      "slug": "niche-hunter",
+      "name": "Niche Hunter",
+      "number": 3,
+      "folder": "research/niches/",
+      "task": "Identify gaps and underserved niches within those categories, meaning high demand but weak or few listings."
+    },
+    {
+      "slug": "template-designer",
+      "name": "Template Designer",
+      "number": 4,
+      "folder": "designs/",
+      "task": "Create original design concepts for templates: Instagram posts, story highlight covers, price lists, wedding planners, budget trackers, resumes and more."
+    },
+    {
+      "slug": "seo-copywriter",
+      "name": "SEO Copywriter",
+      "number": 5,
+      "folder": "listings/",
+      "task": "Write Etsy listing titles, all 13 tags and descriptions, optimized for search."
+    },
+    {
+      "slug": "content-planner",
+      "name": "Content Planner",
+      "number": 6,
+      "folder": "marketing/",
+      "task": "Build a content calendar for marketing the shop (Pinterest, Instagram, TikTok and others)."
+    },
+    {
+      "slug": "policy-researcher",
+      "name": "Policy Researcher",
+      "number": 7,
+      "folder": "research/policies/",
+      "task": "Research Etsy seller policies, digital download rules, fees, file formats and size limits, and licensing/IP do's and don'ts."
+    },
+    {
+      "slug": "brand-designer",
+      "name": "Brand Designer",
+      "number": 8,
+      "folder": "branding/",
+      "task": "Design a shop branding kit: name options, logo direction, banner, colors, fonts and voice."
+    },
+    {
+      "slug": "competitor-tracker",
+      "name": "Competitor Tracker",
+      "number": 9,
+      "folder": "research/competitors/",
+      "task": "Track competitor pricing, discounts, bundles and how they earn and answer reviews."
+    },
+    {
+      "slug": "launch-lead",
+      "name": "Launch Lead",
+      "number": 10,
+      "folder": "launch/",
+      "task": "Compile the launch checklist, pulling in everyone's output so Joey can upload and go."
+    }
+  ]
+}

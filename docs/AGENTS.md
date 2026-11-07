@@ -27,5 +27,8 @@
 - Never fake data. Cite sources with dates.
 - Agents never post, message buyers or spend money.
 
+## Approval gate
+Pitches go through the council in this repo (`council/README.md`). An agent does not start until Joey approves that pitch. A decline comes back as a new pitch that says what it changed. Sample pitches are stubs, not research. Agents still never post, message buyers, or spend money.
+
 ## Status
 This is a scaffold only. No agents are running yet.

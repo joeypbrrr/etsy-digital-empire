@@ -35,6 +35,10 @@ Ten agents work in this repo, each with its own task (see [docs/AGENTS.md](docs/
 | `marketing/` | Content calendar (agent 6) |
 | `branding/` | Shop branding kit (agent 8) |
 | `launch/` | Launch checklist (agent 10) |
+| `council/` | Approval gate: pitches, approve / decline, and the copyable template |
+
+## Council
+Agents pitch in a shared thread before they start. Joey approves or declines from the [council page](council/). The protocol, the token setup, and how to copy the template into another niche repo are in [council/README.md](council/README.md). A pitch in this repo stays in this repo.
 
 ## Status
-This is a scaffold only. No products have been created and no agents are running yet.
+This is a scaffold only. No products have been created and no agents are running yet. The council stub can post a sample pitch after this is merged; a sample is not research.

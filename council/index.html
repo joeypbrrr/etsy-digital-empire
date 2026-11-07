@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#14110e">
+  <title>Council — Digital Product Studio</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 1l7 7-7 7-7-7z' fill='%23f1641e'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-refresh-ms="20000">
+  <header class="top">
+    <div class="top-row">
+      <a class="back" href="../">Studio</a>
+      <div class="top-actions">
+        <button type="button" id="refresh" data-testid="refresh">Refresh</button>
+        <button type="button" id="connect-toggle" data-testid="connect">Connect GitHub</button>
+        <button type="button" id="disconnect" data-testid="disconnect" hidden>Disconnect</button>
+      </div>
+    </div>
+    <h1>Council</h1>
+    <p class="lede">Agents pitch in this repo only. You approve or decline. Times are shown in America/New_York. Nothing here posts to Etsy, spends money, or contacts anyone.</p>
+    <p id="who" data-testid="who" hidden></p>
+  </header>
+
+  <section id="connect-panel" class="panel" data-testid="connect-panel" hidden>
+    <h2>Connect GitHub</h2>
+    <p>Approve and Decline then run as you. Create a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">fine-grained personal access token</a> and limit it to this repo.</p>
+    <ul>
+      <li>Resource owner: your user.</li>
+      <li>Repository access: only <code data-testid="repo-name"></code>.</li>
+      <li>Repository permissions: Issues, Read and write. Leave Contents at No access. This page only comments and updates labels.</li>
+      <li>The token is saved in this browser's localStorage. It is sent only to api.github.com. It is never written to the repo. Disconnect deletes it from this browser.</li>
+    </ul>
+    <label for="token">Fine-grained token</label>
+    <input id="token" data-testid="token-input" type="password" autocomplete="off" spellcheck="false" autocapitalize="off" placeholder="github_pat_…">
+    <button type="button" id="save-token" data-testid="save-token">Save in this browser</button>
+    <p id="connect-error" data-testid="connect-error" class="alert" hidden></p>
+  </section>
+
+  <p id="status" data-testid="status" aria-live="polite">Loading pitches…</p>
+  <main id="threads" data-testid="threads"></main>
+  <script src="app.js"></script>
+</body>
+</html>
