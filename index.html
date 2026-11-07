@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#14110e">
+  <title>Digital Product Studio — Preview</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 1l7 7-7 7-7-7z' fill='%23f1641e'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/es-module-shims@1.10.1/dist/es-module-shims.js"></script>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body data-view="exterior">
+  <div class="banner" role="status">
+    <b>Preview</b>
+    <span>Preview — sample data, not real research. The studio and the agent cards are the sample. The Top 10 board is a separate research snapshot.</span>
+  </div>
+  <header class="top">
+    <a class="brand" href="./"><span class="mark">◆</span> Digital <em>Studio</em></a>
+    <nav>
+      <a href="#workflow">Workflow</a>
+      <a href="#board">Top 10</a>
+      <a href="#shops">Shops</a>
+      <a href="#agents">Agents</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="studio">
+      <div class="scene-wrap">
+        <div id="scene-still">
+          <picture>
+            <source srcset="assets/scene-still.webp" type="image/webp">
+            <img src="assets/scene-still.jpg" alt="Still of the digital product studio exterior at dusk" width="1440" height="800">
+          </picture>
+        </div>
+        <canvas id="scene" aria-label="3D digital product studio. Exterior view, with an interior of ten agents at desks."></canvas>
+        <div id="scene-fade"></div>
+        <div class="scene-title">
+          <span class="eyebrow">The studio · sample preview</span>
+          <h1>Ten agents building a <em>digital</em> product studio.</h1>
+        </div>
+        <div class="scene-controls" role="group" aria-label="Scene view">
+          <button type="button" data-view="exterior" class="active" aria-pressed="true">Exterior</button>
+          <button type="button" data-view="interior" aria-pressed="false">Enter studio</button>
+          <button type="button" id="reset-view" aria-label="Reset view">↺</button>
+        </div>
+        <div id="scene-hint" class="scene-hint">Drag to orbit · pinch or scroll to zoom · tap the building to enter · tap an agent</div>
+        <div id="agent-card" class="agent-card glass" hidden></div>
+      </div>
+    </section>
+
+    <section class="block" id="workflow">
+      <div class="head">
+        <div>
+          <span class="eyebrow">How the repo works</span>
+          <h2>Research → Pick 10 → Design → List → Launch</h2>
+        </div>
+        <p>From <code>docs/AGENTS.md</code>. Joey uploads the finished files and replies to buyers. Agents do not post or spend.</p>
+      </div>
+      <ol class="steps" id="steps"></ol>
+    </section>
+
+    <section class="block" id="board">
+      <div class="head">
+        <div>
+          <span class="eyebrow">Pick 10</span>
+          <h2>Top 10 by combined score</h2>
+        </div>
+        <p>Combined is margin score plus validation score. Ties go to the higher validation score. Each row is assigned to the studio role that would carry it.</p>
+      </div>
+      <p class="snapshot glass">Research snapshot, Nov 7 2026: estimates from third-party trackers (MakerWords, RankHero, eRank); nothing is guaranteed</p>
+      <div class="score-note glass" id="how-score">
+        <h3>How the score works</h3>
+        <p>Fees for a US seller, checked on Etsy Help: a $0.20 listing fee (charged again when a listing auto-renews on a sale), a 6.5% transaction fee, and 3% + $0.25 payment processing. A digital file costs about $0 to deliver. Net per sale = 0.905 × price − $0.45. Margin % = net ÷ price. Not included: optional Etsy Ads, Offsite Ads (only on attributed sales), sales tax, VAT, and time.</p>
+        <p>Typical price is the RankHero median for that product’s head keyword. It is a conservative typical price, not a premium tier.</p>
+        <p>Margin score (0–50) = 20 × clip((margin% − 75%) / 15%) + 30 × clip(net$ / $20). Margins bunch up around 84–88%, so dollars per sale do most of the separating.</p>
+        <p>Validation score (0–50) has four parts:</p>
+        <ul>
+          <li>Demand (0–15): search volume, eRank top-20 or top-200 rank, a 125%+ monthly click-through rate, and cost per click.</li>
+          <li>Proven sales (0–15): sales and ratings of shops that dominate the niche, from MakerWords.</li>
+          <li>Competition gap (0–10): competing listings versus searches, plus keyword difficulty. More open scores higher.</li>
+          <li>Repeat buyer (0–10): forced rebuys (dated yearly, academic-year, or tax-year files) and catalog repeat purchases.</li>
+        </ul>
+        <p>Combined = margin score + validation score, on a 0–100 scale. If two products tie, the one with the higher validation score ranks first.</p>
+        <p>Margin points reward a higher price. Read validation on its own if you want the stronger evidence rather than the higher price: dated digital planner 41, budget spreadsheet 40, resume kit 39, then the wedding bundle and crochet patterns at 36.</p>
+        <p>Sales and review counts come from third-party trackers. They estimate from public Etsy data and can be off. Etsy listing figures marked as a search-engine snapshot are context only and are not used in the scores.</p>
+      </div>
+      <div class="rows" id="board-rows"></div>
+    </section>
+
+    <section class="block" id="shops">
+      <div class="head">
+        <div>
+          <span class="eyebrow" id="shops-label">public Etsy figures, Nov 2026</span>
+          <h2>Inspiration shops</h2>
+        </div>
+        <p id="shops-note"></p>
+      </div>
+      <div class="shops" id="shop-list"></div>
+    </section>
+
+    <section class="block" id="agents">
+      <div class="head">
+        <div>
+          <span class="eyebrow">Preview — sample data, not real research</span>
+          <h2>Ten desks</h2>
+        </div>
+        <p>Role, current task, and the example notes below are preview copy. They are not the Nov 7 research. Products those roles would carry are linked from the snapshot.</p>
+      </div>
+      <div class="agents" id="agent-list"></div>
+    </section>
+  </main>
+  <footer>
+    <span>Digital Product Studio · sample preview of the room</span>
+    <span>Research board: Nov 7 2026 snapshot · nothing is guaranteed · Joey uploads</span>
+  </footer>
+  <script>
+  (function () {
+    window.__studioFrames = 0;
+    window.__studioConfirmed = false;
+    window.__studioNo3d = false;
+    var need = 10;
+    var capture = /(?:\?|&)capture=1(?:&|$)/.test(location.search);
+    var limit = capture ? 30000 : 5000;
+    var t0 = Date.now();
+    function wrap() { return document.querySelector('.scene-wrap'); }
+    function showStill() {
+      if (window.__studioConfirmed) return;
+      window.__studioNo3d = true;
+      var w = wrap();
+      if (!w) return;
+      w.classList.add('no3d');
+      w.classList.remove('is-3d');
+      var canvas = document.getElementById('scene');
+      if (canvas) canvas.style.display = 'none';
+    }
+    function tick() {
+      if (window.__studioConfirmed) {
+        var w = wrap();
+        if (w && !w.classList.contains('no3d')) w.classList.add('is-3d');
+        return;
+      }
+      if (window.__studioNo3d) return;
+      if ((window.__studioFrames || 0) >= need && window.__studioConfirmed) return;
+      if (Date.now() - t0 >= limit) { showStill(); return; }
+      setTimeout(tick, 200);
+    }
+    tick();
+  })();
+  </script>
+  <script type="module" src="app/app.js"></script>
+  <script type="module" src="app/scene.js"></script>
+</body>
+</html>

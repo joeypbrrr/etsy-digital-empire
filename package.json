@@ -1,0 +1,12 @@
+{
+  "name": "etsy-digital-empire-preview",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "test": "playwright test",
+    "still": "node scripts/render-still.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "sample": true,
+  "banner": "Preview — sample data, not real research",
+  "studio": {
+    "name": "Digital Product Studio",
+    "eyebrow": "The studio · sample preview",
+    "headline": "Ten agents building a digital product studio.",
+    "deck": "A cutaway room for the real workflow: Research, Pick 10, Design, List, Launch. The desks and the cards under them are a preview. The ranked board is a separate research snapshot."
+  },
+  "workflow": [
+    {"step": "01", "name": "Research", "who": "Category Researcher, Listing Analyst, Niche Hunter, Policy Researcher, Competitor Tracker", "text": "Find where the money is and what Etsy allows."},
+    {"step": "02", "name": "Pick 10", "who": "The whole studio", "text": "Choose ten digital products with demand, a fee-aware margin, and no upfront fulfillment cost."},
+    {"step": "03", "name": "Design", "who": "Template Designer, Brand Designer", "text": "Original files and one shop brand. Study listings for structure, never copy them."},
+    {"step": "04", "name": "List", "who": "SEO Copywriter, Content Planner", "text": "Titles, all 13 tags, descriptions, and a content calendar."},
+    {"step": "05", "name": "Launch", "who": "Launch Lead, then Joey", "text": "A checklist Joey can upload from. Agents do not post, message buyers, or spend money."}
+  ],
+  "shops_label": "public Etsy figures, Nov 2026",
+  "shops_note": "Public shop pages only. These sales and ratings are not the MakerWords estimates cited on the research board, and they are not a reading of anyone's designs.",
+  "shops": [
+    {"name": "HappyDownloads", "sales_label": "~229.9k sales", "rating": null, "url": "https://www.etsy.com/shop/HappyDownloads"},
+    {"name": "MyLifePlans", "sales_label": "197.6k sales", "rating": 4.9, "url": "https://www.etsy.com/shop/MyLifePlans"},
+    {"name": "PrioriDigitalStudio", "sales_label": "177.9k sales", "rating": 4.7, "url": "https://www.etsy.com/shop/PrioriDigitalStudio"},
+    {"name": "LetsPlanPlanners", "sales_label": "52.7k sales", "rating": 4.9, "url": "https://www.etsy.com/shop/LetsPlanPlanners"},
+    {"name": "DigitalPlannerStart", "sales_label": "43.4k sales", "rating": 4.8, "url": "https://www.etsy.com/shop/DigitalPlannerStart"}
+  ],
+  "proposers": [
+    {
+      "product": "Canva wedding planner + day-of binder bundle",
+      "agent_id": "agent-04",
+      "because": "Wedding planner templates are this role's design brief."
+    },
+    {
+      "product": "Small business / Etsy-seller bookkeeping & profit spreadsheet",
+      "agent_id": "agent-01",
+      "because": "This role compares category price, demand, and what still clears the fees."
+    },
+    {
+      "product": "Notion life / business planner template",
+      "agent_id": "agent-03",
+      "because": "This role looks for demand with few strong listings. The case here is that gap."
+    },
+    {
+      "product": "Dated 2027 hyperlinked digital planner (GoodNotes/Notability, niche-themed)",
+      "agent_id": "agent-02",
+      "because": "This role studies specific top-selling shops. The case here is the large planner shops."
+    },
+    {
+      "product": "Google Sheets budget / paycheck budget spreadsheet (auto-calculating dashboard)",
+      "agent_id": "agent-09",
+      "because": "This role tracks competitor prices. The case here is a shop median far above the keyword median."
+    },
+    {
+      "product": "ATS-friendly resume + cover letter template kit (Word/Google Docs), job-specific versions",
+      "agent_id": "agent-04",
+      "because": "Resume templates are this role's design brief."
+    },
+    {
+      "product": "Dated 2026-27 / 2027-28 teacher lesson planner (editable)",
+      "agent_id": "agent-06",
+      "because": "This role times the shop's posts. The case here is a short summer selling window."
+    },
+    {
+      "product": "Editable baby shower / party games & signs bundle (original themes)",
+      "agent_id": "agent-04",
+      "because": "Original party bundles are design work. Trademarked themes stay out."
+    },
+    {
+      "product": "Original crochet pattern (PDF) collection",
+      "agent_id": "agent-01",
+      "because": "This role ranks categories by documented demand."
+    },
+    {
+      "product": "ADHD / neurodivergent-friendly daily planner",
+      "agent_id": "agent-03",
+      "because": "This role hunts narrower gaps inside a crowded category."
+    }
+  ],
+  "agents": [
+    {
+      "id": "agent-01",
+      "name": "Category Researcher",
+      "phase": "Research",
+      "folder": "research/categories/",
+      "color": "#e07a3d",
+      "hair": "#3a2a24",
+      "accessory": "beanie",
+      "task": "Find the most profitable digital product categories on Etsy right now, with demand, price range, and competition for each, and source every figure.",
+      "ideas": [
+        "Example slot: a category note, with a source and a date, would be filed in research/categories/.",
+        "Example question: which file types clear the fee floor without a per-sale cost?"
+      ],
+      "findings": [
+        "Example only. This card does not invent category statistics. Sourced figures live on the research board."
+      ]
+    },
+    {
+      "id": "agent-02",
+      "name": "Listing Analyst",
+      "phase": "Research",
+      "folder": "research/top-listings/",
+      "color": "#d4a054",
+      "hair": "#2a211c",
+      "accessory": "glasses",
+      "task": "Find specific top-selling digital listings to study and model: what they sell, at what price, their review counts, and why they work.",
+      "ideas": [
+        "Example slot: one listing study per file type, in research/top-listings/.",
+        "Example question: what is the file the buyer actually downloads?"
+      ],
+      "findings": [
+        "Example only. No listing was opened for this card. Shop and keyword evidence is on the research board, with links."
+      ]
+    },
+    {
+      "id": "agent-03",
+      "name": "Niche Hunter",
+      "phase": "Research",
+      "folder": "research/niches/",
+      "color": "#c45c26",
+      "hair": "#4a3428",
+      "accessory": "bun",
+      "task": "Identify gaps and underserved niches: high demand, but weak or few listings.",
+      "ideas": [
+        "Example slot: a niche note that says what was counted and what was not.",
+        "Example question: is a narrower angle actually less crowded, or only a new keyword?"
+      ],
+      "findings": [
+        "Example only. A gap is not a finding until listings are counted. The board's competition-gap points are the sourced version."
+      ]
+    },
+    {
+      "id": "agent-04",
+      "name": "Template Designer",
+      "phase": "Design",
+      "folder": "designs/",
+      "color": "#e8a04a",
+      "hair": "#5a3a28",
+      "accessory": "scarf",
+      "task": "Create original design concepts for templates: Instagram posts, story highlight covers, price lists, wedding planners, budget trackers, resumes, and more.",
+      "ideas": [
+        "Example slot: page sketches in designs/, original, not traced from a shop.",
+        "Example question: what is the one page the buyer finishes first?"
+      ],
+      "findings": [
+        "Example only. The mood boards in the room are abstract color and type studies, not a seller's layout."
+      ]
+    },
+    {
+      "id": "agent-05",
+      "name": "SEO Copywriter",
+      "phase": "List",
+      "folder": "listings/",
+      "color": "#f1641e",
+      "hair": "#2c2420",
+      "accessory": "glasses",
+      "task": "Write Etsy listing titles, all 13 tags, and descriptions, optimized for search.",
+      "ideas": [
+        "Example slot: a title, 13 tags, and a description drafted only from product facts.",
+        "Example question: which words are the file, and which words are filler?"
+      ],
+      "findings": [
+        "Example only. No live title or tag set has been written."
+      ]
+    },
+    {
+      "id": "agent-06",
+      "name": "Content Planner",
+      "phase": "List",
+      "folder": "marketing/",
+      "color": "#c47b6a",
+      "hair": "#3a2a28",
+      "accessory": "beanie",
+      "task": "Build a content calendar for marketing the shop on Pinterest, Instagram, TikTok, and elsewhere.",
+      "ideas": [
+        "Example slot: a four-week calendar that uses original images only.",
+        "Example question: which products have a season, and which can be posted any week?"
+      ],
+      "findings": [
+        "Example only. Nothing is scheduled. A seasonal note on the research board is not a calendar."
+      ]
+    },
+    {
+      "id": "agent-07",
+      "name": "Policy Researcher",
+      "phase": "Research",
+      "folder": "research/policies/",
+      "color": "#8d6b4a",
+      "hair": "#2a2420",
+      "accessory": "none",
+      "task": "Research Etsy seller policies, digital download rules, fees, file formats and size limits, and licensing and IP limits.",
+      "ideas": [
+        "Example slot: a fee and file-limit note that links Etsy's own help pages.",
+        "Example question: does this product need a tool license, a trademark, or a material cost?"
+      ],
+      "findings": [
+        "Example only. Fee rules used on the board are cited there to Etsy Help. This card does not restate them as a new finding."
+      ]
+    },
+    {
+      "id": "agent-08",
+      "name": "Brand Designer",
+      "phase": "Design",
+      "folder": "branding/",
+      "color": "#f3ede2",
+      "hair": "#6b4a32",
+      "accessory": "scarf",
+      "task": "Design a shop branding kit: name options, logo direction, banner, colors, fonts, and voice.",
+      "ideas": [
+        "Example slot: three name directions and one banner sketch in branding/.",
+        "Example question: can the same palette hold a planner and a spreadsheet?"
+      ],
+      "findings": [
+        "Example only. Ink, cream, and orange in this room are a preview palette, not a finished brand."
+      ]
+    },
+    {
+      "id": "agent-09",
+      "name": "Competitor Tracker",
+      "phase": "Research",
+      "folder": "research/competitors/",
+      "color": "#6e7c8a",
+      "hair": "#1c1a18",
+      "accessory": "none",
+      "task": "Track competitor pricing, discounts, bundles, and how shops earn and answer reviews.",
+      "ideas": [
+        "Example slot: a price and bundle log with the date it was checked.",
+        "Example question: what does a shop charge above the keyword median, and for which file?"
+      ],
+      "findings": [
+        "Example only. The inspiration strip is shop-level public sales, not a price study. Competitor figures used in scores are linked on the board."
+      ]
+    },
+    {
+      "id": "agent-10",
+      "name": "Launch Lead",
+      "phase": "Launch",
+      "folder": "launch/",
+      "color": "#3d4e66",
+      "hair": "#241c18",
+      "accessory": "beanie",
+      "task": "Compile the launch checklist from everyone's output so Joey can upload the files and reply to buyers.",
+      "ideas": [
+        "Example slot: a checklist that points at the real files, not at this preview.",
+        "Example question: what is still missing before an upload?"
+      ],
+      "findings": [
+        "Example only. Nothing is ready to upload. Joey still approves the work, and agents do not post or spend."
+      ]
+    }
+  ]
+}
